@@ -1,0 +1,44 @@
+/*
+.container{
+    display: flex;
+    flex-direction: row;
+}
+*/
+
+/* estructura secuencial, condicional, ciclos*/
+
+/*ESTAMOS USNDO CICLOS*/
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);/*5 filas iguales*/
+    grid-gap: 2px;
+    width: 60%;
+    font-size: 3em;
+    text-align: center;
+    background-color: rgb(228, 160, 160);
+}
+
+#title{
+    text-align: center;
+}
+.cuadro{
+    background-color: bisque;
+    min-height: 6vh;
+    padding-top: 20%;
+}
+
+.menu{
+    width: 60%;
+    margin: 5%;
+    padding: 10px;
+    background-color: darkgrey;
+}
+#opciones{
+    color:white;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(199, 121, 36);
+    font-size: 1.5em;
+}
+
